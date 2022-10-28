@@ -203,6 +203,6 @@ const styles = StyleSheet.create({
         elevation: 10,
         alignItems: 'center',
     },
-};
+});
 
 export default App;

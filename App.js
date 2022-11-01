@@ -186,7 +186,7 @@ const App = () => {
                     alignSelf: 'center',
                     marginTop: 15,
                     marginBottom: 10,
-                }}>Due Next Week</Text>
+                }}>Due This Week</Text>
                 { sortTime(tasks)[1].map((item, index) => { return displayTask(item, index); }) }
                 <Text style={{
                     fontSize: 30,

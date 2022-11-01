@@ -412,6 +412,9 @@ const App = () => {
                                     setDay(now.getDate());
                                     setMonth(now.getMonth());
                                     setYear(now.getFullYear());
+                                    
+                                    setMinute(59);
+                                    setHour(23);
 
                                     setModalVisible(false);
                                 }}
